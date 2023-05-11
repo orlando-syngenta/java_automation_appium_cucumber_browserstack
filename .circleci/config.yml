@@ -12,7 +12,7 @@ jobs:
           name: Run Appium tests
           command: |
             chmod +x gradlew
-            ./gradlew clean test --tests LoginC12Runner
+            ./gradlew clean test --tests LoginRunner
 
 workflows:
   version: 2
